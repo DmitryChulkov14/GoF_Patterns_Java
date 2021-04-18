@@ -1,5 +1,11 @@
 package structural;
 
+/**
+ * Proxy replaces the real object and controls access to it.
+ * <br/>
+ * <br/>
+ * Прокси заменяет реальный объект и контролирует доступ к нему.
+ * */
 public class Proxy {
     public static void main(String[] args) {
 

@@ -1,5 +1,11 @@
 package creational;
 
+/**
+ * Abstract Factory (factory of factories) pattern works around a super-factory which creates other factories.
+ * <br/>
+ * <br/>
+ * Шаблон абстрактной фабрики работает вокруг суперфабрики, которая создает другие фабрики.
+ */
 public class AbstractFactory {
     public static void main(String[] args) {
         IAbstractFactory factory = new AncientFactory();

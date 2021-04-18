@@ -1,5 +1,13 @@
 package creational;
 
+/**
+ * Singleton pattern involves a single class which is responsible to create an object while making sure that only single object gets created.
+ * This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
+ * <br/>
+ * <br/>
+ * Шаблон Singleton включает в себя один класс, который отвечает за создание объекта, обеспечивая создание только одного объекта.
+ * Этот класс предоставляет способ доступа к своему единственному объекту, к которому можно получить доступ напрямую, без необходимости создавать экземпляр объекта класса.
+ * */
 public class Singleton {
     public static void main(String[] args) {
         SingletonCommon singletonCommon = SingletonCommon.getInstance();

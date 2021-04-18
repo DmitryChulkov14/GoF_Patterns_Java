@@ -1,5 +1,13 @@
 package structural;
 
+/**
+ * Adapter pattern works as a bridge between two incompatible interfaces.
+ * This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces.
+ * <br/>
+ * <br/>
+ * Шаблон адаптера работает как мост между двумя несовместимыми интерфейсами.
+ * Этот шаблон включает один класс, который отвечает за объединение функций независимых или несовместимых интерфейсов.
+ * */
 public class Adapter {
     public static void main(String[] args) {
         USB cardReader = new CardReader(new MemoryCard());

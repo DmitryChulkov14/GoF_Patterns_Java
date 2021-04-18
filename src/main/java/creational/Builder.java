@@ -1,5 +1,13 @@
 package creational;
 
+/**
+ * Builder pattern builds a complex object using simple objects and using a step by step approach.
+ * A Builder class builds the final object step by step. This builder is independent of other objects.
+ * <br/>
+ * <br/>
+ * Шаблон Builder создает сложный объект, используя простые объекты и используя пошаговый подход.
+ * Класс Builder шаг за шагом строит окончательный объект. Этот строитель не зависит от других объектов.
+ * */
 public class Builder {
     public static void main(String[] args) {
         Person person1 = new Person.Builder()

@@ -1,5 +1,11 @@
 package creational;
 
+/**
+ * In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+ * <br/>
+ * <br/>
+ * В шаблоне Factory мы создаем объект, не открывая клиенту логику создания, и ссылаемся на вновь созданный объект, используя общий интерфейс.
+ * */
 public class FactoryMethod {
     public static void main(String[] args) {
         TransportFactory transportFactory = new TransportFactory();
